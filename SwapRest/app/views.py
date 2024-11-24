@@ -12,19 +12,19 @@ class PerfilViewSet(viewsets.ModelViewSet):
 class FeedViewSet(viewsets.ModelViewSet):
     queryset = Feed.objects.all()
     serializer_class = FeedSerializer
-    permission_classes = [IsAuthenticated]
+    #permission_classes = [IsAuthenticated]
 
 class ConteudoSwapViewSet(viewsets.ModelViewSet):
     queryset = ConteudoSwap.objects.all()
     serializer_class = ConteudoSwapSerializer
-    permission_classes = [IsAuthenticated]
+    #permission_classes = [IsAuthenticated]
 
 class TrocaViewSet(viewsets.ModelViewSet):
     queryset = Troca.objects.all()
     serializer_class = TrocaSerializer
-    permission_classes = [IsAuthenticated]
+    #permission_classes = [IsAuthenticated]
 
 class RecomendacaoViewSet(viewsets.ModelViewSet):
     queryset = Recomendacao.objects.all()
     serializer_class = RecomendacaoSerializer
-    permission_classes = [IsAuthenticated]
+    #permission_classes = [IsAuthenticated]
